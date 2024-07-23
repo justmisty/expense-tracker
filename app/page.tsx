@@ -14,6 +14,7 @@ const Homepage = async () => {
       <h1>Welcome, {user.firstName}</h1>
       <AddTransaction />
     </main>
+    
   );
 };
 

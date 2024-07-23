@@ -9,6 +9,7 @@ export const checkUser = async () => {
   if (!user) {
     return null;
   }
+  
 
   //check if user is already in the database
   const loggedInUser = await db.user.findUnique({
